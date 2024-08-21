@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 485113858}
   - component: {fileID: 485113857}
   - component: {fileID: 485113856}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -428,8 +428,8 @@ Transform:
   m_GameObject: {fileID: 485113855}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17, y: -0.22, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.33, y: -0.22, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6453125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -691,7 +691,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 0
 --- !u!222 &1833444377
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -719,6 +719,63 @@ RectTransform:
   m_AnchoredPosition: {x: -773, y: 338}
   m_SizeDelta: {x: 227, y: 290}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &8372953672927416285
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 461020501199905965, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_Name
+      value: Bird Wings
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622986815120833053, guid: af59036cb77f746f8a177340c4b28347, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af59036cb77f746f8a177340c4b28347, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -729,3 +786,4 @@ SceneRoots:
   - {fileID: 432923872}
   - {fileID: 1729400993}
   - {fileID: 1722763097}
+  - {fileID: 8372953672927416285}
