@@ -69,6 +69,7 @@
     <Compile Include="Assets/LogicScript.cs" />
     <Compile Include="Assets/PipeMoveScript.cs" />
     <Compile Include="Assets/PipeMiddleScript.cs" />
+    <Compile Include="Assets/ChangeSpriteOnSpace.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
